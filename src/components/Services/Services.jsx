@@ -36,7 +36,7 @@ const Services = () => {
           I like to learn new technologies
           regularly!
                   </spane>
-        <a href={Resume} download>
+        <a href={Resume} download className="anchor">
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -50,7 +50,7 @@ const Services = () => {
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
-          <Card
+          <Card className= "first_card"
             emoji={HeartEmoji}
             heading={"Libraries"}
             detail={" React Js, bootstrap, tailwind CSS"}

@@ -25,20 +25,29 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+        <a href="https://master.d2ce5nv6gf8wjn.amplifyapp.com/">
           <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+        <a href="https://master.d2ce5nv6gf8wjn.amplifyapp.com/">
           <img src={Ecommerce} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://master.d3v9kdgxo404uc.amplifyapp.com">
+          <img src={HOC} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://master.d3v9kdgxo404uc.amplifyapp.com">
+          <img src={Temp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Temp} alt="" />
-        </SwiperSlide>
+        
       </Swiper>
     </div>
   );
