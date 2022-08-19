@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/rupak.jpeg";
+import boy from "../../img/rupak1.jpg";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -12,7 +12,6 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 import Resume from "./resume.pdf";
 const Intro = () => {
   // Transition
